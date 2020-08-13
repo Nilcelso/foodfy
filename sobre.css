@@ -1,0 +1,29 @@
+.sobre h1 {
+    width: 164;
+    height: 28;
+    font-size: 24px;
+}
+.sobre h2{
+    margin-top: -40px;
+    width: 202;
+    height: 24;
+    color: #111111;
+    font-size: 20px;
+}
+
+.sobre p {
+    margin: 0;
+    padding: 0;
+    width: 940px;
+    height: 280px;
+
+    text-align: justify;
+
+    font-size: 18px;
+
+    color: #444444;
+}
+.sobre #nossas-receitas {
+    width: 940px;
+    height: 112px;
+}

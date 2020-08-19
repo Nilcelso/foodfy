@@ -1,0 +1,56 @@
+.video-receitas{
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.video-receitas img{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+.modal-overlay {
+    background-color: white;
+    width: 680px;
+    height: 433px;
+    position: fixed;
+    top: 100px;
+    border-radius: 16px;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+.modal .close-modal{
+    color: black;
+    position: absolute;
+    right: 0px;
+    top: -25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*=== modal ativo ===*/
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    width: 700px;
+    height: 280px;
+
+    position: absolute;
+
+    border-radius: 15px;
+
+
+}
